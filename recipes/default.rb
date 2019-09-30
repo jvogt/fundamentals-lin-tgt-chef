@@ -21,3 +21,13 @@ sudo 'fundamentals' do
   user 'fundamentals'
   nopasswd true
 end
+
+service 'sshd' do
+  action :nothing
+end
+
+execute "sed -i 's/^PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config" do
+  only_if 'grep "^PasswordAuthentication no" /etc/ssh/sshd_config'
+  action :run
+  notifies :restart, 'service[sshd]', :immediately
+end
