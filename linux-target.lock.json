@@ -1,0 +1,42 @@
+{
+  "revision_id": "e87056075bb93395cc484af249e214fef898bb1964b254f34d19671d27e9be7a",
+  "name": "linux-target",
+  "run_list": [
+    "recipe[linux-target::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "linux-target": {
+      "version": "0.1.0",
+      "identifier": "e8cd73734d25c8340824ebddfb31825576843ceb",
+      "dotted_decimal_identifier": "65528090336241096.14645653457992497.143303572208875",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "linux-target",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "linux-target (0.1.0)": [
+
+      ]
+    }
+  }
+}

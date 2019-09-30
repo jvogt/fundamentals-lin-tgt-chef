@@ -1,0 +1,9 @@
+pkg_name=linux-target-chef
+pkg_origin=jvogt-fundamentals
+pkg_version="0.1.0"
+pkg_maintainer="Jeff Vogt"
+pkg_license=("Apache-2.0")
+pkg_scaffolding="chef/scaffolding-chef-infra"
+scaffold_policy_name="linux-target"
+scaffold_policyfile_path="$PLAN_CONTEXT/../" # habitat/../windows-workstation.rb
+scaffold_chef_license="accept-no-persist"
