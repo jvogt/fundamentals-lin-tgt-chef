@@ -1,5 +1,5 @@
 {
-  "revision_id": "a19f73feed178d6af6240227c1008817fbada05eed7adaa13ecb93c4330b5631",
+  "revision_id": "364cbe7473c5caa9bf9141a9f5dd4d4b2da28b19092bbfd70d4e1a007a6f8786",
   "name": "linux-target",
   "run_list": [
     "recipe[linux-target::default]"
@@ -10,14 +10,14 @@
   "cookbook_locks": {
     "linux-target": {
       "version": "0.1.0",
-      "identifier": "e0c23346cd69d275723b2963a14121c886c48cd0",
-      "dotted_decimal_identifier": "63263920270174674.33058170698178881.37145138203856",
+      "identifier": "50c404592427b66e0cafc0fd9418bcdad5a5859f",
+      "dotted_decimal_identifier": "22733521091307446.30976196434826264.207648073287071",
       "source": ".",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:jvogt/fundamentals-lin-tgt-chef.git",
-        "revision": "1058524d4691df903dc7716d016afccc564af4db",
+        "revision": "2898d117ec7fa51af7a8029913cd428b0a14e1f2",
         "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [

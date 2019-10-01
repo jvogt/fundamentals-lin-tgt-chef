@@ -4,21 +4,21 @@
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
-file '/etc/motd' do
-  content "Welcome to the fundamentals class\n\n"
-  action :create
-end
+# file '/etc/motd' do
+#   content "Welcome to the fundamentals class\n\n"
+#   action :create
+# end
 
-directory '/home/fundamentals'
+directory '/home/chef'
 
-user 'fundamentals' do
-  home '/home/fundamentals'
+user 'chef' do
+  home '/home/chef'
   manage_home true
-  password '$1$jxlqKpX3$k0Nd1vw6V4nxxC5ZqZUE..'
+  password '$1$WgXqffFX$KeByLO7vY1tUuOFwim7oq0'
 end
 
-sudo 'fundamentals' do
-  user 'fundamentals'
+sudo 'chef' do
+  user 'chef'
   nopasswd true
 end
 
